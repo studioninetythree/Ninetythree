@@ -1,0 +1,102 @@
+body{
+    width: 100%;
+    padding-bottom: 50px;
+}
+#home-page{
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+#about-page{
+    width: 100%;
+    margin-top: 50px;
+}
+
+#services-page{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #FD7E6F;
+}
+#contact-page{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #353B49;
+}
+
+#team-page{
+    width: 100%;
+    margin-top: 50px;
+    background-color: #00AA99;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+.carousel-control.left {
+    background-image: none;
+    background-image:       none;
+    background-image:  none;
+    background-image: none;
+    filter:  none;
+}
+.carousel-control.right {
+    background-image: none;
+    background-image:       none;
+    background-image:  none;
+    background-image: none;
+    filter:  none;
+}
+
+.text-white{
+    color: white;
+}
+
+.page-heading{
+    margin-top: 50px;
+}
+
+#primary-navbar{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px;
+}
+
+.content-center{
+    margin: 0 auto;
+}
+
+.btn-def{
+    background-color: transparent;
+    border-color: #363636;
+    border-radius: 0px;
+    background: none;
+    color: #363636;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+.btn-def:hover{
+    background: #363636;
+    color: white;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+
