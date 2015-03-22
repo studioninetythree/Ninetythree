@@ -4,15 +4,17 @@
     <title>Ninetythree | Home</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/override.css">
-    <script type="text/javascript" src="scripts/jquery-1.11.2.js"></script>
-    <script type="text/javascript" src="scripts/bootstrap.js"></script>
-
+    <script type="text/javascript" src="js/jquery-1.11.2.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 </head>
 <body>
 <nav  class="navbar navbar-fixed-top " id="primary-navbar" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <a href="index.html" class="navbar-brand">ninetythree</a>
+            <a href="index.php" class="navbar-brand">ninetythree</a>
+        </div>
+        <div class="nav navbar-btn navbar-right">
+            <a href="pages/myportal.php" class="btn btn-sm btn-def-blue" >Login</a>
         </div>
     </div>
 </nav>
@@ -42,15 +44,14 @@
         </div>
     </div>
     <div class="col-lg-4 col-lg-offset-4 text-center">
-        <h2 class="page-header">Ninetythree</h2>
+        <div class="page-heading">
+            <h2>Ninetythree</h2>
+            <hr width="200px" class="line-turquoise">
+        </div>
         <p class="panel-body">ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. ipsum dolor sit amet, consectetur adipisicing elit,
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <a href="about.html" class="btn btn-lg btn-def" >Let's Start Building</a>
-
-        <form name="someform" method="post" action="php/connection.php">
-            <input type="submit" class="btn btn-lg btn-def" >
-        </form>
+        <a href="pages/about.php" class="btn btn-lg btn-def-blue" >Let's Start Building</a>
     </div>
 </div>
 </body>
